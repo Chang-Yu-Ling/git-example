@@ -1,0 +1,5 @@
+stackOverFlow:
+https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
+
+jsonToCsvDownload:
+https://www.letswrite.tw/json-to-csv/
