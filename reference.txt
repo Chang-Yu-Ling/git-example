@@ -6,3 +6,8 @@ https://www.letswrite.tw/json-to-csv/
 
 docker run mysql:
 https://ithelp.ithome.com.tw/articles/10272193
+https://dilsichandrasena.medium.com/how-to-deploy-and-use-a-mysql-docker-container-in-ubuntu-4ace7c893982
+
+spring boot with mysql:
+https://hevodata.com/learn/spring-boot-mysql/
+
