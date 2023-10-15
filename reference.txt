@@ -11,3 +11,29 @@ https://dilsichandrasena.medium.com/how-to-deploy-and-use-a-mysql-docker-contain
 spring boot with mysql:
 https://hevodata.com/learn/spring-boot-mysql/
 
+< SSO > ==============================================
+< step by step example: > (starter-oauth2-client)
+include logout
+https://www.baeldung.com/spring-boot-keycloak
+brief
+https://developers.redhat.com/articles/2023/07/24/how-integrate-spring-boot-3-spring-security-and-keycloak#test_the_application
+
+=====================
+< url: >
+https://www.keycloak.org/docs/latest/securing_apps/
+
+文字版:
+https://inteca.com/blog-en/integrating-keycloak-with-spring-boot-applications/
+
+=====================
+
+< api test: >  bom (  KeycloakWebSecurityConfigurer )
+https://refactorizando.com/en/how-integrate-keycloak-spring-boot/
+
+bom ( KeycloakWebSecurityConfigurer ):
+https://www.geeksforgeeks.org/how-to-integrate-keycloak-with-spring-boot-and-spring-security/
+
+
+other:
+https://dzone.com/articles/spring-boot-3-keycloak
+https://gauthier-cassany.com/posts/spring-boot-keycloak
