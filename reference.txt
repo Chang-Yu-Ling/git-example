@@ -37,3 +37,19 @@ https://www.geeksforgeeks.org/how-to-integrate-keycloak-with-spring-boot-and-spr
 other:
 https://dzone.com/articles/spring-boot-3-keycloak
 https://gauthier-cassany.com/posts/spring-boot-keycloak
+===================
+
+< SSO  question: > =================================================
+
+role:
+keycloak.use-resource-role-mappings=true
+https://keycloak.discourse.group/t/always-receiving-error-401-from-web-app-using-keycloak/3922/8
+
+scope:
+scope=openid
+https://github.com/keycloak/keycloak/issues/16844
+
+keyclock : config
+https://www.appsloveworld.com/springboot/100/117/spring-boot-keycloak-failed-to-turn-code-into-token-ssl
+
+
