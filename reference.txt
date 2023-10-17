@@ -52,4 +52,17 @@ https://github.com/keycloak/keycloak/issues/16844
 keyclock : config
 https://www.appsloveworld.com/springboot/100/117/spring-boot-keycloak-failed-to-turn-code-into-token-ssl
 
+=========================
+tsso spring boot example:
+https://github.com/grootan/keycloak-oidc-java/blob/main/spring-boot-app/src/main/java/com/oidc/demo/DemoApplication.java
+
+sso config:
+https://www.keycloak.org/docs/latest/securing_apps/#keycloak-java-adapters
+sso config:
+https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-using-the-keycloak-rest-api#keycloak_connection_using_a_java_application
+
+
+==========================
+keyclock ( localhost todo ) :
+https://www.baeldung.com/spring-boot-keycloak
 
