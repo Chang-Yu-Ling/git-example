@@ -66,3 +66,52 @@ https://developers.redhat.com/blog/2020/11/24/authentication-and-authorization-u
 keyclock ( localhost todo ) :
 https://www.baeldung.com/spring-boot-keycloak
 
+===========================
+< keyclock issue: >
+
+forwardedHeaders:
+https://github.com/keycloak/keycloak/issues/15107
+
+hostname:
+https://github.com/keycloak/keycloak/issues/20145
+
+ca:
+https://keycloak.discourse.group/t/when-opening-my-application-link-i-get-403-forbidden-instead-of-the-login-page/21626
+https://gis.stackexchange.com/questions/356759/getting-403-after-logging-in-to-geoserver-through-keycloak
+
+
+<secure-deployment name="dcm4chee-arc-war-5.23.2-secure.war">
+                <realm>dcm4che</realm>
+                <resource>dcm4chee-arc-rs</resource>
+                <bearer-only>true</bearer-only>
+                <auth-server-url>https://localhost:8843/auth</auth-server-url>
+                <truststore>/Users/Administrator/Desktop/wildfly-24.0.0.Final/standalone/configuration/keystores/cacerts.p12</truststore>
+                <truststore-password>secret</truststore-password>
+                <ssl-required>external</ssl-required>
+                <allow-any-hostname>true</allow-any-hostname>
+</secure-deployment>
+https://groups.google.com/g/dcm4che/c/dpSrZKieddc
+
+
+enable logging for keycloak :
+logging:
+  level:
+    org.keycloak: debug
+https://github.com/openanalytics/shinyproxy/issues/62
+
+
+如果省略openid範圍，就會暴露403 :
+https://www.inflearn.com/questions/735104/keycloack-userinfo-403-forbidden-error
+
+spring boot example (git ) :
+https://github.com/keycloak/keycloak-quickstarts/tree/latest/spring/rest-authz-resource-server
+
+build:
+https://www.baeldung.com/java-spring-fix-403-error
+https://www.reddit.com/r/SpringBoot/comments/10eieju/hasrole_not_working_with_keycloak/
+
+public-client: true : 
+https://cloud.tencent.com/developer/article/1851256
+
+
+
