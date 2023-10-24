@@ -114,4 +114,48 @@ public-client: true :
 https://cloud.tencent.com/developer/article/1851256
 
 
+===============================
+javascript type enter to click button:
+https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+https://www.geeksforgeeks.org/javascript-trigger-a-button-on-enter-key/
+https://stackoverflow.com/questions/33211672/how-to-submit-a-form-using-enter-key-in-react-js
+*******
+https://www.surajsharma.net/blog/react-onkeypress-form-submit
+
+=========================
+log:
+https://ithelp.ithome.com.tw/articles/10263898?sc=rss.iron
+
+============================
+< SSO >
+
+filter :
+https://www.baeldung.com/sso-spring-security-oauth2
+
+git example:
+https://github.com/Identicum/spring-sso-filter/blob/master/src/main/java/com/identicum/config/OidcSsoFilter.java
+
+Basic Auth with Spring Security:
+https://engineering.autotrader.co.uk/2021/06/25/sso-with-spring-security.html
+
+403:
+https://access.redhat.com/documentation/fr-fr/red_hat_process_automation_manager/7.12/html/integrating_red_hat_process_automation_manager_with_other_products_and_components/bus-app-security-con_business-applications
+
+filter:
+https://www.codejava.net/frameworks/spring-boot/spring-security-before-authentication-filter-examples
+
+.anyRequest().authenticated();
+https://medium.com/walmartglobaltech/3a-framework-f-spring-boot-custom-filters-aspect-programming-3d9e8223f222
+
+linkin:
+https://www.linkedin.com/pulse/springboot-single-sign-on-sso-waffle-tung-vo/
+
+login example:
+https://developer.okta.com/blog/2019/05/31/spring-security-authentication
+
+filter dictionary:
+https://www.tabnine.com/code/java/methods/org.springframework.boot.web.servlet.FilterRegistrationBean/addUrlPatterns
+
+
+
 
