@@ -156,6 +156,14 @@ https://developer.okta.com/blog/2019/05/31/spring-security-authentication
 filter dictionary:
 https://www.tabnine.com/code/java/methods/org.springframework.boot.web.servlet.FilterRegistrationBean/addUrlPatterns
 
+------------------------
+Filter git
+https://github.com/Identicum/spring-sso-filter
 
+Filter introduction
+https://docs.spring.io/spring-security/reference/servlet/architecture.html
+===========================
+GOOGLE SSO:
+https://waynestalk.com/spring-security-oauth2-google-signin-explained/
 
 
