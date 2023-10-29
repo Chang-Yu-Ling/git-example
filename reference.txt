@@ -166,4 +166,6 @@ https://docs.spring.io/spring-security/reference/servlet/architecture.html
 GOOGLE SSO:
 https://waynestalk.com/spring-security-oauth2-google-signin-explained/
 
-
+=============================
+cypress:
+https://hackmd.io/@SuFrank/r1CwP5Dp5
