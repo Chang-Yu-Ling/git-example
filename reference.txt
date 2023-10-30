@@ -169,3 +169,6 @@ https://waynestalk.com/spring-security-oauth2-google-signin-explained/
 =============================
 cypress:
 https://hackmd.io/@SuFrank/r1CwP5Dp5
+
+vite + cypress:
+https://medium.com/@nelfayran/cypress-react-and-vite-collaboration-bed6761808fc
