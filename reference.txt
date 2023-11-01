@@ -114,6 +114,11 @@ public-client: true :
 https://cloud.tencent.com/developer/article/1851256
 
 
+auto refresh token
+https://stackoverflow.com/questions/63426347/how-can-i-refresh-tokens-in-spring-security
+
+https://www.baeldung.com/spring-security-oauth2-remember-me
+
 ===============================
 javascript type enter to click button:
 https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
