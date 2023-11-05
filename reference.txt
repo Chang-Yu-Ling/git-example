@@ -177,3 +177,24 @@ https://hackmd.io/@SuFrank/r1CwP5Dp5
 
 vite + cypress:
 https://medium.com/@nelfayran/cypress-react-and-vite-collaboration-bed6761808fc
+
+====================================
+<spring to DB2>
+中文版:
+https://sites.google.com/im.fju.edu.tw/web/spring-framework/spring-jdbc
+
+IBM sample:
+https://developer.ibm.com/tutorials/spring-with-db2-via-jdbc/
+https://developer.ibm.com/tutorials/spring-with-db2-via-jpa/
+
+with DB2 download url:
+https://www.cdata.com/kb/tech/db2-jdbc-spring-boot.rst
+
+======================================
+<@Autowired>
+brief:
+https://hackmd.io/@SpringLearning/B1FRH1vKs
+https://matthung0807.blogspot.com/2018/08/spring-autowired.html
+
+spring boot 各component:
+https://hackmd.io/@nickwu/rkYbiXLli
