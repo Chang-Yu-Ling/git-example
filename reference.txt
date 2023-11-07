@@ -198,3 +198,10 @@ https://matthung0807.blogspot.com/2018/08/spring-autowired.html
 
 spring boot 各component:
 https://hackmd.io/@nickwu/rkYbiXLli
+
+=======================
+C++ read xlsx
+
+https://21xrx.com/Articles/read_article/211249
+
+https://www.volcengine.com/theme/4157622-Z-7-1
