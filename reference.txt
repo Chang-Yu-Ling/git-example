@@ -205,3 +205,22 @@ C++ read xlsx
 https://21xrx.com/Articles/read_article/211249
 
 https://www.volcengine.com/theme/4157622-Z-7-1
+
+========================
+Java spring boot error handle
+https://samuel-mumo.medium.com/rest-api-error-handling-in-spring-boot-applications-9b629f3f5be7
+
+For not found error
+https://auth0.com/blog/get-started-with-custom-error-handling-in-spring-boot-java/
+
+Detial example
+https://www.javaguides.net/2021/10/spring-boot-exception-handling-example.html
+
+> No try catch
+https://polinwei.com/spring-boot-rest-exception-handling/
+
+Except handler example
+https://niels.nu/blog/2016/controller-advice-exception-handlers
+
+Handle return message
+https://waynestalk.com/spring-boot-customize-exception-handling/
