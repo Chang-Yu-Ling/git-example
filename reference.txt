@@ -224,3 +224,7 @@ https://niels.nu/blog/2016/controller-advice-exception-handlers
 
 Handle return message
 https://waynestalk.com/spring-boot-customize-exception-handling/
+
+git workable:
+https://github.com/bezkoder/spring-boot-exception-handling/tree/master/src/main/java/com/bezkoder/spring/exhandling
+
