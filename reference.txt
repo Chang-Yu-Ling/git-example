@@ -228,3 +228,6 @@ https://waynestalk.com/spring-boot-customize-exception-handling/
 git workable:
 https://github.com/bezkoder/spring-boot-exception-handling/tree/master/src/main/java/com/bezkoder/spring/exhandling
 
+handleNoHandlerFoundException
+controlleradvice exceptionhandler 404 example
+https://dev.to/send2abhishek/how-to-customise-white-label-error-in-spring-boot-672
