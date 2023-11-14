@@ -231,3 +231,7 @@ https://github.com/bezkoder/spring-boot-exception-handling/tree/master/src/main/
 handleNoHandlerFoundException
 controlleradvice exceptionhandler 404 example
 https://dev.to/send2abhishek/how-to-customise-white-label-error-in-spring-boot-672
+
+logging:
+https://ithelp.ithome.com.tw/m/articles/10248974
+https://www.ruyut.com/2022/08/spring-boot-log.html
