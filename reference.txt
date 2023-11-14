@@ -235,3 +235,7 @@ https://dev.to/send2abhishek/how-to-customise-white-label-error-in-spring-boot-6
 logging:
 https://ithelp.ithome.com.tw/m/articles/10248974
 https://www.ruyut.com/2022/08/spring-boot-log.html
+
+exceptin handle:
+https://github.com/magiccrafter/spring-boot-exception-handling/tree/master
+https://copyprogramming.com/howto/spring-boot-rest-service-exception-handling
