@@ -239,3 +239,8 @@ https://www.ruyut.com/2022/08/spring-boot-log.html
 exceptin handle:
 https://github.com/magiccrafter/spring-boot-exception-handling/tree/master
 https://copyprogramming.com/howto/spring-boot-rest-service-exception-handling
+
+https://bootcamptoprod.com/spring-boot-no-explicit-mapping-error-handling/
+https://syntaxfix.com/question/6182/spring-boot-rest-service-exception-handling
+https://www.baeldung.com/spring-mvc-static-resources
+https://blog.csdn.net/z69183787/article/details/124470495
