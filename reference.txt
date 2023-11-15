@@ -245,3 +245,42 @@ https://bootcamptoprod.com/spring-boot-no-explicit-mapping-error-handling/
 https://syntaxfix.com/question/6182/spring-boot-rest-service-exception-handling
 https://www.baeldung.com/spring-mvc-static-resources
 https://blog.csdn.net/z69183787/article/details/124470495
+
+===========================
+Backend test
+https://bingdoal.github.io/backend/2021/12/api-and-service-unit-test-on-spring-boot-junit-mockito/
+
+Backend test general
+https://www.baeldung.com/spring-boot-testing
+
+https://medium.com/kth-distributed-systems/testing-microservices-in-spring-boot-applications-tools-and-techniques-b9c27d865f88
+
+Brief example
+https://www.jetbrains.com/guide/java/tutorials/your-first-spring-application/testing-spring-boot-application/
+
+Spring boot back test github
+https://github.com/rieckpil/testing-spring-boot-applications-masterclass/blob/main/src/test/java/de/rieckpil/courses/TestJwtDecoderConfig.java
+
+Api test
+https://howtodoinjava.com/spring-boot2/testing/rest-controller-unit-test-example/
+
+https://reflectoring.io/spring-boot-web-controller-test/
+
+https://www.tutorialspoint.com/spring_boot/spring_boot_rest_controller_unit_test.htm
+
+https://juejin.cn/post/6997238199135256583
+
+Test introduction
+https://yen0304.github.io/p/springboot%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A61-%E5%9F%BA%E7%A4%8E%E4%BB%8B%E7%B4%B9/
+
+Frontend log
+https://www.npmjs.com/package/react-native-logs
+
+https://leafty.medium.com/getting-started-with-logging-in-react-e8d493458689
+
+Veiw at frontend：
+https://dev.to/parseable/logging-for-your-frontend-apps-28pj
+
+https://www.sentinelone.com/blog/getting-started-react-logging/
+
+https://mahdi-karimipour.medium.com/monitoring-logging-and-instrumentation-for-react-single-page-application-with-azure-application-ebdd334bcb46
