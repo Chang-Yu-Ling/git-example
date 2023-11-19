@@ -284,3 +284,12 @@ https://dev.to/parseable/logging-for-your-frontend-apps-28pj
 https://www.sentinelone.com/blog/getting-started-react-logging/
 
 https://mahdi-karimipour.medium.com/monitoring-logging-and-instrumentation-for-react-single-page-application-with-azure-application-ebdd334bcb46
+
+* API test
+https://spring.io/guides/gs/testing-web/
+https://www.baeldung.com/spring-boot-testing
+
+test coverage:
+https://blog.miniasp.com/post/2021/08/11/Spring-Boot-Maven-JaCoCo-Test-Coverage-Report-in-VSCode
+https://aurigait.com/blog/unit-testing-with-code-coverage-using-junit/
+https://www.baeldung.com/jacoco
