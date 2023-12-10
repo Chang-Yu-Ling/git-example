@@ -309,7 +309,7 @@ https://www.appsloveworld.com/springboot/100/18/how-to-close-the-connection-in-s
 
 db connect retry:
 https://stackoverflow.com/questions/50553352/spring-retry-connection-until-datasource-is-available
-
+*
 https://medium.com/@mertcakmak2/retry-mechanism-in-spring-boot-retryable-and-recover-00f77ac3e408
 
 HikariPool setting:
@@ -323,3 +323,15 @@ https://blog.csdn.net/weixin_44612246/article/details/130092811
 
 https://www.tabnine.com/code/java/methods/com.zaxxer.hikari.HikariDataSource/close
 
+
+db error handle:
+*
+https://github.com/hakanozbay/database-error-handling
+*
+https://www.softwaretestinghelp.com/jdbc-exception-handling/
+
+https://docs.oracle.com/javase/tutorial/jdbc/basics/sqlexception.html
+
+https://www.tutorialspoint.com/jdbc/jdbc-exceptions.htm
+(brief)
+https://coderanch.com/t/316665/java/Exception-database
