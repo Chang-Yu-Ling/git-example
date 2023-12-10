@@ -306,3 +306,20 @@ https://mkyong.com/spring/spring-jdbctemplate-querying-examples/
 
 jdbc close:
 https://www.appsloveworld.com/springboot/100/18/how-to-close-the-connection-in-spring-boot-after-jdbctemplate-executes-the-query
+
+db connect retry:
+https://stackoverflow.com/questions/50553352/spring-retry-connection-until-datasource-is-available
+
+https://medium.com/@mertcakmak2/retry-mechanism-in-spring-boot-retryable-and-recover-00f77ac3e408
+
+HikariPool setting:
+http://www.masterspringboot.com/data-access/jpa-applications/hikari-connection-pool-with-spring-boot-made-simple/#google_vignette
+
+disable pool log:
+https://www.appsloveworld.com/java/100/47/disable-hikaripool-logging
+
+pool close:
+https://blog.csdn.net/weixin_44612246/article/details/130092811
+
+https://www.tabnine.com/code/java/methods/com.zaxxer.hikari.HikariDataSource/close
+
