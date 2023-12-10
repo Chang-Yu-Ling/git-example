@@ -300,4 +300,9 @@ https://ithelp.ithome.com.tw/m/articles/10213001
 
 https://blog.davidou.org/archives/609
 
+==============================
+jdbc test:
+https://mkyong.com/spring/spring-jdbctemplate-querying-examples/
 
+jdbc close:
+https://www.appsloveworld.com/springboot/100/18/how-to-close-the-connection-in-spring-boot-after-jdbctemplate-executes-the-query
