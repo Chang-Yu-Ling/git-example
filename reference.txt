@@ -335,3 +335,9 @@ https://docs.oracle.com/javase/tutorial/jdbc/basics/sqlexception.html
 https://www.tutorialspoint.com/jdbc/jdbc-exceptions.htm
 (brief)
 https://coderanch.com/t/316665/java/Exception-database
+
+=================================
+try catch without break:
+https://www.tutorialspoint.com/how-do-you-throw-an-exception-without-breaking-a-for-loop-in-java
+
+https://stackoverflow.com/questions/35601428/throw-exception-without-breaking-loop-in-java
