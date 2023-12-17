@@ -341,3 +341,7 @@ try catch without break:
 https://www.tutorialspoint.com/how-do-you-throw-an-exception-without-breaking-a-for-loop-in-java
 
 https://stackoverflow.com/questions/35601428/throw-exception-without-breaking-loop-in-java
+
+===================================
+db test container:
+https://stackoverflow.com/questions/68226920/unable-to-create-jdbc-connection-to-test-container-for-db2
