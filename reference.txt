@@ -346,3 +346,5 @@ https://stackoverflow.com/questions/35601428/throw-exception-without-breaking-lo
 ===================================
 db test container:
 https://stackoverflow.com/questions/68226920/unable-to-create-jdbc-connection-to-test-container-for-db2
+
+https://www.baeldung.com/docker-test-containers
