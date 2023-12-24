@@ -354,3 +354,6 @@ https://www.baeldung.com/spring-boot-convert-application-properties-to-applicati
 
 update yaml config un runtime:
 https://copyprogramming.com/howto/how-change-property-values-at-runtime-in-spring
+
+yaml config with variable:
+https://github.com/MicrosoftDocs/azure-devops-docs/issues/3695
