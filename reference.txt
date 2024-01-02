@@ -357,3 +357,10 @@ https://copyprogramming.com/howto/how-change-property-values-at-runtime-in-sprin
 
 yaml config with variable:
 https://github.com/MicrosoftDocs/azure-devops-docs/issues/3695
+
+====================================
+visual studio download
+https://ithelp.ithome.com.tw/m/articles/10213200
+https://blog.hungwin.com.tw/vs2022install/
+https://learn.microsoft.com/zh-tw/visualstudio/install/install-visual-studio?view=vs-2022
+https://ithelp.ithome.com.tw/m/articles/10261844
