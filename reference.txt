@@ -364,3 +364,13 @@ https://ithelp.ithome.com.tw/m/articles/10213200
 https://blog.hungwin.com.tw/vs2022install/
 https://learn.microsoft.com/zh-tw/visualstudio/install/install-visual-studio?view=vs-2022
 https://ithelp.ithome.com.tw/m/articles/10261844
+
+==================================
+power bi
+https://community.fabric.microsoft.com/t5/Report-Server/Not-able-to-Open-the-Report-Server-URL/m-p/257455
+
+https://www.mssqltips.com/sqlservertip/3312/sql-server-reporting-services-ssrs-encryption-key/
+
+https://www.mssqltips.com/sqlservertip/3312/sql-server-reporting-services-ssrs-encryption-key/
+
+https://learn.microsoft.com/zh-tw/sql/reporting-services/install-windows/add-and-remove-encryption-keys-for-scale-out-deployment?view=sql-server-ver16
