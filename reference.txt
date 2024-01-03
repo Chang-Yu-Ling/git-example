@@ -374,3 +374,6 @@ https://www.mssqltips.com/sqlservertip/3312/sql-server-reporting-services-ssrs-e
 https://www.mssqltips.com/sqlservertip/3312/sql-server-reporting-services-ssrs-encryption-key/
 
 https://learn.microsoft.com/zh-tw/sql/reporting-services/install-windows/add-and-remove-encryption-keys-for-scale-out-deployment?view=sql-server-ver16
+============================
+check admin
+https://www.technipages.com/how-to-check-for-administrator-rights/
