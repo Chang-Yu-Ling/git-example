@@ -377,3 +377,13 @@ https://learn.microsoft.com/zh-tw/sql/reporting-services/install-windows/add-and
 ============================
 check admin
 https://www.technipages.com/how-to-check-for-administrator-rights/
+
+=================================
+VB:
+https://learn.microsoft.com/zh-tw/visualstudio/get-started/visual-basic/tutorial-console?view=vs-2022
+
+list:
+https://download.csdn.net/download/weixin_38715008/14002473?spm=1001.2101.3001.6650.12&utm_medium=distribute.pc_relevant.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-14002473-blog-108443775.235%5Ev40%5Epc_relevant_3m_sort_dl_base3&depth_1-utm_source=distribute.pc_relevant.none-task-download-2%7Edefault%7EBlogCommendFromBaidu%7ERate-12-14002473-blog-108443775.235%5Ev40%5Epc_relevant_3m_sort_dl_base3&utm_relevant_index=20&ydreferer=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpdXhpYW9mZW5nMTk5MS9hcnRpY2xlL2RldGFpbHMvMTA4NDQzNzc1
+
+vb.net sql injection deallocate for list:
+https://stackoverflow.com/questions/6279013/odbc-parameters-with-list-of-values
