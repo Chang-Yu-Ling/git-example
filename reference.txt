@@ -1,4 +1,4 @@
-
+hi
 stackOverFlow:
 https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
 
@@ -388,7 +388,7 @@ https://download.csdn.net/download/weixin_38715008/14002473?spm=1001.2101.3001.6
 vb.net sql injection deallocate for list:
 https://stackoverflow.com/questions/6279013/odbc-parameters-with-list-of-values
 =================================
-.net sql injection
+.net sql injection(odbcconnect C# IN parameter list )
 Int
 https://www.appsloveworld.com/csharp/100/39/how-to-bind-parameters-via-odbc-c
 
