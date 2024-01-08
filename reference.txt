@@ -387,3 +387,21 @@ https://download.csdn.net/download/weixin_38715008/14002473?spm=1001.2101.3001.6
 
 vb.net sql injection deallocate for list:
 https://stackoverflow.com/questions/6279013/odbc-parameters-with-list-of-values
+=================================
+.net sql injection
+Int
+https://www.appsloveworld.com/csharp/100/39/how-to-bind-parameters-via-odbc-c
+
+https://stackoverflow.com/questions/1535994/asp-net-odbc-query-with-parameters
+
+Array
+https://stackoverflow.com/questions/46471682/odbc-parametrized-query-with-unknown-number-of-values
+
+Null
+https://www.codeproject.com/Questions/350194/Odbc-stored-proc-wont-accept-NULL
+
+Sql connection string
+https://stackoverflow.com/questions/15631602/how-can-i-set-an-sql-server-connection-string
+
+Sql connection array
+https://stackoverflow.com/questions/2377506/pass-array-parameter-in-sqlcommand
