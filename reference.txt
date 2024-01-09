@@ -405,3 +405,15 @@ https://stackoverflow.com/questions/15631602/how-can-i-set-an-sql-server-connect
 
 Sql connection array
 https://stackoverflow.com/questions/2377506/pass-array-parameter-in-sqlcommand
+=============================
+Db2 string
+https://www.ibm.com/docs/zh-tw/db2woc?topic=programmatically-net
+
+Db2 connection & comment
+https://www.progress.com/tutorials/net/code-examples-ibm-db2
+
+.net web config
+https://dotblogs.com.tw/johnny/2010/01/18/13074
+
+With type:
+https://stackoverflow.com/questions/18084926/how-get-query-with-parameters-from-odbc-on-c-sharp
