@@ -1,4 +1,4 @@
-hi
+duhi
 stackOverFlow:
 https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
 
@@ -417,3 +417,22 @@ https://dotblogs.com.tw/johnny/2010/01/18/13074
 
 With type:
 https://stackoverflow.com/questions/18084926/how-get-query-with-parameters-from-odbc-on-c-sharp
+
+==============================
+Fill
+https://learn.microsoft.com/zh-tw/dotnet/api/system.data.common.dataadapter?view=net-8.0
+
+Odbc dataadapter
+https://learn.microsoft.com/zh-tw/dotnet/api/system.data.odbc.odbcdataadapter?view=dotnet-plat-ext-8.0
+
+stored procedure 
+https://stackoverflow.com/questions/3528305/how-to-use-a-dataadapter-with-stored-procedure-and-parameter
+
+Old connect
+http://11967046.blogspot.com/2010/12/1209-aspnet-c.html?m=1
+
+Fill source code
+https://www.cnblogs.com/huangxincheng/p/13358901.html
+
+Stackoverflow fill error
+https://stackoverflow.com/questions/71431228/sqldataadapter-not-passing-data-to-datatable-using-fill-method
