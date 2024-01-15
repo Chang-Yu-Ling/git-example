@@ -436,3 +436,19 @@ https://www.cnblogs.com/huangxincheng/p/13358901.html
 
 Stackoverflow fill error
 https://stackoverflow.com/questions/71431228/sqldataadapter-not-passing-data-to-datatable-using-fill-method
+==============================
+In vs exists
+https://stackoverflow.com/questions/24929/difference-between-exists-and-in-in-sql
+
+=Any
+https://www.cnblogs.com/wy20110919/p/9134304.html
+
+？？？？
+https://stackoverflow.com/questions/1535994/asp-net-odbc-query-with-parameters
+
+=And=and
+
+List
+https://stackoverflow.com/questions/6279013/odbc-parameters-with-list-of-values
+
+https://stackoverflow.com/questions/337704/parameterize-an-sql-in-clause/337792#337792
