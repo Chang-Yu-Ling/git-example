@@ -452,3 +452,12 @@ List
 https://stackoverflow.com/questions/6279013/odbc-parameters-with-list-of-values
 
 https://stackoverflow.com/questions/337704/parameterize-an-sql-in-clause/337792#337792
+================================
+2 way
+https://stackoverflow.com/questions/48443066/how-to-execute-multiple-statement-with-variables-in-c-sharp-odbccommand-object
+
+Declare Table 變數
+https://nelman.pixnet.net/blog/post/22127708
+
+Pass table into odbccommand
+Tgenni
