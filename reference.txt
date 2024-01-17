@@ -478,3 +478,7 @@ https://www.gss.com.tw/blog/sql-cte-recursive-query-postgresql-mssql
 Subquery failed
 https://stackoverflow.com/questions/21742073/subquery-not-working-with-access-linked-tables
 
+====================
+Declare list in VB
+Tgenni
+https://stackoverflow.com/questions/21160456/sql-server-procedure-declare-a-list
