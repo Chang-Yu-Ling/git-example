@@ -461,3 +461,20 @@ https://nelman.pixnet.net/blog/post/22127708
 
 Pass table into odbccommand
 Tgenni
+===================
+Use sql producer
+https://www.c-sharpcorner.com/article/executing-sql-queries-and-sql-stored-procedure-with-odbc/
+
+https://stackoverflow.com/questions/3583074/execute-parameterized-sql-storedprocedure-via-odbc
+
+Temp
+https://community.jmp.com/t5/Discussions/SQL-query-to-ODBC-datasource-SQL-server-with-temporary-tables/td-p/457582
+
+Defined a sub query table to reuse(cte)
+*https://stackoverflow.com/questions/45547625/vb-net-using-a-cte-query-in-vb-net
+Tgenni
+https://www.gss.com.tw/blog/sql-cte-recursive-query-postgresql-mssql
+
+Subquery failed
+https://stackoverflow.com/questions/21742073/subquery-not-working-with-access-linked-tables
+
