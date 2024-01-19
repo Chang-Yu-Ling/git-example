@@ -482,3 +482,21 @@ https://stackoverflow.com/questions/21742073/subquery-not-working-with-access-li
 Declare list in VB
 Tgenni
 https://stackoverflow.com/questions/21160456/sql-server-procedure-declare-a-list
+=====================
+fix fortify without parameters
+solve sql injection without edit sql
+C# prevent SQL injection without parameters
+Safe function
+https://stackoverflow.com/questions/910465/avoiding-sql-injection-without-parameters
+
+https://itecnote.com/tecnote/c-avoiding-sql-injection-without-parameters/
+
+https://www.globaldots.com/resources/blog/how-to-prevent-sql-injection-attacks/
+
+Encode
+https://blog.csdn.net/Zhu_daye/article/details/102668386
+
+Avoid space
+https://ithelp.ithome.com.tw/m/articles/10080337
+
+======================
