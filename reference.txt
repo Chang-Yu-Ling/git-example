@@ -508,3 +508,15 @@ https://docs.lucentsky.com/zh/avm/how-to/install-license
 
 Auto fix
 https://stackoverflow.com/questions/63887663/fortify-how-to-automate-getting-issues-vulnerability-list-under-a-project-usi
+=======================
+Auto fix
+https://stackoverflow.com/questions/63887663/fortify-how-to-automate-getting-issues-vulnerability-list-under-a-project-usi
+
+
+https://plugins.jetbrains.com/plugin/9943-fortify-on-demand
+
+Visual studio fortify
+https://www.microfocus.com/zh-tw/fortify-integrations/visual-studio
+
+https://marketing.ares.com.tw/newsletter/2019-11-fortify/it
+
