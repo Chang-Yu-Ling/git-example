@@ -500,3 +500,11 @@ Avoid space
 https://ithelp.ithome.com.tw/m/articles/10080337
 
 ======================
+Tool
+https://www.lucentsky.com/en/sast
+
+https://docs.lucentsky.com/zh/avm/how-to/install-license
+
+
+Auto fix
+https://stackoverflow.com/questions/63887663/fortify-how-to-automate-getting-issues-vulnerability-list-under-a-project-usi
