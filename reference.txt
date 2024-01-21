@@ -520,3 +520,33 @@ https://www.microfocus.com/zh-tw/fortify-integrations/visual-studio
 
 https://marketing.ares.com.tw/newsletter/2019-11-fortify/it
 
+=====================
+Show input parameters
+https://copyprogramming.com/howto/csharp-odbc-command-parameters-c-code-example
+
+Special characters
+https://communities.sas.com/t5/SAS-Enterprise-Guide/Problem-with-special-character-ODBC-import-SQL-Server/td-p/465820
+
+Over flow
+https://stackoverflow.com/questions/37165695/c-arithmetic-overflow-by-reading-data-via-odbc
+
+TRY_CAST
+CAST(? AS VARCHAR(64))
+https://learn.microsoft.com/en-us/answers/questions/401547/how-to-avoid-error-arithmetic-overflow-error-conve
+
+Parameters convert
+https://learn.microsoft.com/en-us/dotnet/api/system.data.odbc.odbcparametercollection.add?view=dotnet-plat-ext-8.0
+
+Convert type by cast and  cstr
+https://stackoverflow.com/questions/6422070/how-to-convert-number-datatype-to-text-datatype-odbc-query-c-sharp
+
+Encode type 改在系統
+https://stackoverflow.com/questions/34205727/set-dsn-encoding-for-odbc-driver-11-for-sql-server-on-windows-10
+
+ORDER
+https://stackoverflow.com/questions/45511013/reading-columns-out-of-order-returns-incorrect-values-sql-server-odbc-driver
+
+πππππππππππ
+Truncate
+https://stackoverflow.com/questions/2327937/why-does-my-odbc-selectcommand-get-truncated-when-i-add-a-parameter
+
