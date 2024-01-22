@@ -552,6 +552,7 @@ https://stackoverflow.com/questions/2327937/why-does-my-odbc-selectcommand-get-t
 ================
 add基本用法 
 https://learn.microsoft.com/zh-tw/dotnet/framework/data/adonet/configuring-parameters-and-parameter-data-types
+https://stackoverflow.com/questions/6338139/can-odbc-parameter-place-holders-be-named
 
 parameter.Direction
 
