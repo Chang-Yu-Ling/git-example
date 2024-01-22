@@ -549,4 +549,9 @@ https://stackoverflow.com/questions/45511013/reading-columns-out-of-order-return
 πππππππππππ
 Truncate
 https://stackoverflow.com/questions/2327937/why-does-my-odbc-selectcommand-get-truncated-when-i-add-a-parameter
+================
+add基本用法 
+https://learn.microsoft.com/zh-tw/dotnet/framework/data/adonet/configuring-parameters-and-parameter-data-types
+
+parameter.Direction
 
