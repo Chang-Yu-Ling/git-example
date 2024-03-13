@@ -556,3 +556,6 @@ https://stackoverflow.com/questions/6338139/can-odbc-parameter-place-holders-be-
 
 parameter.Direction
 
+============================
+Sql加速
+https://ithelp.ithome.com.tw/m/articles/10213001
