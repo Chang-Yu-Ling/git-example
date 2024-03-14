@@ -559,3 +559,6 @@ parameter.Direction
 ============================
 Sql加速
 https://ithelp.ithome.com.tw/m/articles/10213001
+
+vb泛空白字元：
+https://dotblogs.com.tw/supershowwei/2019/09/23/225851
