@@ -562,3 +562,18 @@ https://ithelp.ithome.com.tw/m/articles/10213001
 
 vb泛空白字元：
 https://dotblogs.com.tw/supershowwei/2019/09/23/225851
+============================
+cypress:
+https://www.tpisoftware.com/tpu/articleDetails/2898
+
+climb\try3\cypress\e2e\spec.cy.js
+describe('template spec', () => {  
+  beforeEach(() => {
+    cy.visit('http://localhost:9000/')
+  })
+  it('passes', () => {
+    cy.get('input').type("123")
+    cy.get('button').click
+    cy.wait()//https://www.npmjs.com/package/cypress-wait-until
+  })
+})
