@@ -577,3 +577,9 @@ describe('template spec', () => {
     cy.wait()//https://www.npmjs.com/package/cypress-wait-until
   })
 })
+
+=============================
+outer union corr
+https://stackoverflow.com/questions/2309943/unioning-two-tables-with-different-number-of-columns
+
+
