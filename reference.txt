@@ -582,4 +582,5 @@ describe('template spec', () => {
 outer union corr
 https://stackoverflow.com/questions/2309943/unioning-two-tables-with-different-number-of-columns
 
-
+compare select
+https://dbeaver.com/docs/dbeaver/Data-compare/
