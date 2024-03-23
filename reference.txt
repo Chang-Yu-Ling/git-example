@@ -587,3 +587,6 @@ https://dbeaver.com/docs/dbeaver/Data-compare/
 ===============================
 sql agent server start
 https://virtual-dba.com/blog/sql-server-services/
+
+find sql instance
+https://solarwindscore.my.site.com/SuccessCenter/s/article/How-to-identify-your-SQL-Server-version-and-edition?language=en_US
