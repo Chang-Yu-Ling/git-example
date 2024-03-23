@@ -1,4 +1,4 @@
-duhi
+toduhi
 stackOverFlow:
 https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
 
@@ -584,3 +584,6 @@ https://stackoverflow.com/questions/2309943/unioning-two-tables-with-different-n
 
 compare select
 https://dbeaver.com/docs/dbeaver/Data-compare/
+===============================
+sql agent server start
+https://virtual-dba.com/blog/sql-server-services/
