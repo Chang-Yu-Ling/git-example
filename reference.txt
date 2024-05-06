@@ -590,3 +590,7 @@ https://virtual-dba.com/blog/sql-server-services/
 
 find sql instance
 https://solarwindscore.my.site.com/SuccessCenter/s/article/How-to-identify-your-SQL-Server-version-and-edition?language=en_US
+================================
+linux folder memory du
+https://www.onejar99.com/linux-command-du/
+
