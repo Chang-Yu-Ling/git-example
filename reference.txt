@@ -599,4 +599,6 @@ https://community.postman.com/t/how-to-compare-two-json-objects-ignoring-the-ord
 
 get json different
 https://stackoverflow.com/questions/62038162/how-to-compare-two-json-responses-and-see-the-differences-in-postman
+https://stackoverflow.com/questions/8431651/getting-a-diff-of-two-json-objects
 =====================================
+
