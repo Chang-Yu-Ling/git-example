@@ -1,4 +1,4 @@
-toduhi
+
 stackOverFlow:
 https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
 
@@ -597,3 +597,6 @@ https://www.onejar99.com/linux-command-du/
 postman diff
 https://community.postman.com/t/how-to-compare-two-json-objects-ignoring-the-order-of-fields/53584/4
 
+get json different
+https://stackoverflow.com/questions/62038162/how-to-compare-two-json-responses-and-see-the-differences-in-postman
+=====================================
