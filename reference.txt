@@ -593,4 +593,7 @@ https://solarwindscore.my.site.com/SuccessCenter/s/article/How-to-identify-your-
 ================================
 linux folder memory du
 https://www.onejar99.com/linux-command-du/
+==================================
+postman diff
+https://community.postman.com/t/how-to-compare-two-json-objects-ignoring-the-order-of-fields/53584/4
 
