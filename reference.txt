@@ -603,5 +603,7 @@ https://stackoverflow.com/questions/8431651/getting-a-diff-of-two-json-objects
 
 xlsx：
 https://stackoverflow.com/questions/72777066/how-to-write-to-excel-file-using-xlsx-while-keeping-the-same-order
+new line:
+https://stackoverflow.com/questions/67872300/how-to-append-new-row-to-existing-sheet-in-xlsm-workbook-in-sheetjs
 =====================================
 
