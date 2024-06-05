@@ -605,5 +605,7 @@ xlsx：
 https://stackoverflow.com/questions/72777066/how-to-write-to-excel-file-using-xlsx-while-keeping-the-same-order
 new line:
 https://stackoverflow.com/questions/67872300/how-to-append-new-row-to-existing-sheet-in-xlsm-workbook-in-sheetjs
+xlsx color
+https://stackoverflow.com/questions/50147526/sheetjs-xlsx-cell-styling
 =====================================
 
