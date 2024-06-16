@@ -656,3 +656,7 @@ https://stackoverflow.com/questions/39153080/how-can-i-get-the-status-code-from-
 
 js replaceAll error fix
 https://stackoverflow.com/questions/63616486/property-replaceall-does-not-exist-on-type-string
+
+===================================
+java updata json array
+https://stackoverflow.com/questions/38913318/how-to-update-jsonarray-value-on-java
