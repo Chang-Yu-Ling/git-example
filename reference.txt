@@ -612,12 +612,20 @@ js json object remove key
 https://stackoverflow.com/questions/3455405/how-do-i-remove-a-key-from-a-javascript-object
 js json object add key
 https://stackoverflow.com/questions/1168807/how-can-i-add-a-key-value-pair-to-a-javascript-object
+js string to json
+https://www.geeksforgeeks.org/how-to-convert-string-to-json-in-typescript/
+js json check object empty
+https://www.freecodecamp.org/news/check-if-an-object-is-empty-in-javascript/
+js json diff
+https://www.npmjs.com/package/json-diff-ts
 
 js csv to json
 https://stackoverflow.com/questions/27979002/convert-csv-data-into-json-format-using-javascript
 
 js read file(fs)
 https://stackoverflow.com/questions/33643107/read-and-write-a-text-file-in-typescript
+js write file by fs
+https://ithelp.ithome.com.tw/articles/10185422
 
 aoa_to_sheet
 https://github.com/SheetJS/sheetjs/issues/2142
@@ -627,6 +635,8 @@ https://www.programfarmer.com/articles/2021/javascript-shallow-copy-deep-copy
 
 promise await
 https://stackoverflow.com/questions/36911241/how-to-extract-data-out-of-a-promise
+await for loop
+https://stackoverflow.com/questions/59709485/will-typescript-wait-for-a-loop-to-complete-before-executing-the-next-code
 
 for (const element of array1) {
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
@@ -634,4 +644,15 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
 json to table:
 https://stackoverflow.com/questions/56693519/convert-json-object-to-html-table-format-in-typescript
 
+js json to html
+https://stackoverflow.com/questions/56693519/convert-json-object-to-html-table-format-in-typescript
+html board
+https://ithelp.ithome.com.tw/articles/10185295
 
+axios time
+https://stackoverflow.com/questions/49874594/how-to-get-response-times-from-axios
+axios error handle
+https://stackoverflow.com/questions/39153080/how-can-i-get-the-status-code-from-an-http-error-in-axios
+
+js replaceAll error fix
+https://stackoverflow.com/questions/63616486/property-replaceall-does-not-exist-on-type-string
