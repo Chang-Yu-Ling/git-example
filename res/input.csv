@@ -1,0 +1,4 @@
+host_dev,host_local,api_dev,api_local,prodIdReplace,mailReplace,accountReplace,0
+http://localhost:8000/api/v1/,http://localhost:8000/api/v1/,biz,biz,987,alice@gmail.com,alice,
+http://localhost:8000/api/v1/,http://localhost:8000/api/v1/,nonbiz,biz,987,alice@gmail.com,alice,
+http://localhost:8000/api/v1/,http://localhost:8000/api/v1/,nonbiz,nonbiz,987,alice@gmail.com,alice,

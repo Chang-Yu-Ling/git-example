@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^20.14.2",
+    "axios": "^1.7.2",
+    "axios-time": "^1.0.0",
+    "fp-ts": "^2.16.6",
+    "fs": "^0.0.1-security",
+    "json-diff-ts": "^4.0.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "xlsx": "^0.18.5"
+  }
+}
