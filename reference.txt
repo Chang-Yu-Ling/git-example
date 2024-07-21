@@ -669,3 +669,12 @@ I had a similar error and it didn't fix with giving LD_LIBRARY_PATH in ~/.bashrc
 
 db dead lock
 https://www.cnblogs.com/xuyupengblogs/p/16485009.html
+=====================================
+shell scritp
+https://stackoverflow.com/questions/76502003/how-does-one-use-nohup-inside-a-script-running-on-nohup
+nohup ./test.sh 123 > script_output.out 2>&1 &
+
+a=$1
+#echo ${a}
+echo "345"
+=====================================
