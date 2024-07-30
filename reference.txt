@@ -678,3 +678,7 @@ a=$1
 #echo ${a}
 echo "345"
 =====================================
+linux dec to hex
+dec=85
+hex=$(([##16]dec))
+https://unix.stackexchange.com/questions/191205/bash-base-conversion-from-decimal-to-hex
