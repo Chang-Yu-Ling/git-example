@@ -682,3 +682,10 @@ linux dec to hex
 dec=85
 hex=$(([##16]dec))
 https://unix.stackexchange.com/questions/191205/bash-base-conversion-from-decimal-to-hex
+
+
+=====================================
+sqlEncode test container
+https://stackoverflow.com/questions/70095183/wrong-encoding-in-java-database-testing
+spring.datasource.url = jdbc:mysql://localhost:3306/gehive?useUnicode=yes&characterEncoding=UTF-8
+
