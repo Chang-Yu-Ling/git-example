@@ -692,3 +692,6 @@ spring.datasource.url = jdbc:mysql://localhost:3306/gehive?useUnicode=yes&charac
 ======================================
 db set code page
 https://www.ibm.com/docs/en/db2/11.5?topic=support-choosing-code-page-territory-collation-your-database
+db2 create table used unicode
+https://www.ibm.com/docs/en/db2-for-zos/12?topic=data-creating-unicode-table
+
