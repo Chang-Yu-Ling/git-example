@@ -695,3 +695,6 @@ https://www.ibm.com/docs/en/db2/11.5?topic=support-choosing-code-page-territory-
 db2 create table used unicode
 https://www.ibm.com/docs/en/db2-for-zos/12?topic=data-creating-unicode-table
 
+===================================
+java set code page
+https://stackoverflow.com/questions/25425813/db2-insert-utf-8-characters-on-non-unicode-database-with-alt-collate-unicode
