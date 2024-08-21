@@ -698,3 +698,4 @@ https://www.ibm.com/docs/en/db2-for-zos/12?topic=data-creating-unicode-table
 ===================================
 java set code page
 https://stackoverflow.com/questions/25425813/db2-insert-utf-8-characters-on-non-unicode-database-with-alt-collate-unicode
+https://github.com/brettwooldridge/HikariCP/issues/40
