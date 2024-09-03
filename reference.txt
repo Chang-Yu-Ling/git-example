@@ -703,3 +703,5 @@ https://github.com/brettwooldridge/HikariCP/issues/40
 sql 直接 encode 
 https://stackoverflow.com/questions/46305174/how-to-convert-character-set-to-unicode-in-db2-query
 
+db2 encode by sql hex
+https://stackoverflow.com/questions/47530582/jdbc-url-db2-encoding-characters
