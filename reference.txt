@@ -705,3 +705,6 @@ https://stackoverflow.com/questions/46305174/how-to-convert-character-set-to-uni
 
 db2 encode by sql hex
 https://stackoverflow.com/questions/47530582/jdbc-url-db2-encoding-characters
+
+unicode to utf-8
+https://blog.csdn.net/xyw_blog/article/details/8510740
