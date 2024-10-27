@@ -708,3 +708,11 @@ https://stackoverflow.com/questions/47530582/jdbc-url-db2-encoding-characters
 
 unicode to utf-8
 https://blog.csdn.net/xyw_blog/article/details/8510740
+
+java write xlsx:
+https://four-bots.com/?p=1407
+pom:
+https://stackoverflow.com/questions/8202008/required-maven-dependencies-for-apache-poi-to-work
+
+java contorller(api) return xlsx:
+https://stackoverflow.com/questions/51684550/how-to-download-an-excel-file-in-spring-restcontroller
