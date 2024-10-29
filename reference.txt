@@ -716,3 +716,10 @@ https://stackoverflow.com/questions/8202008/required-maven-dependencies-for-apac
 
 java contorller(api) return xlsx:
 https://stackoverflow.com/questions/51684550/how-to-download-an-excel-file-in-spring-restcontroller
+
+========================
+linux get average cpu load about db2 over last 5 minutes
+https://superuser.com/questions/875693/linux-get-cpu-usage-over-past-n-minutes
+
+db2 query cpu load
+https://www.ibm.com/docs/en/db2/11.5?topic=views-env-sys-resources-return-system-information
