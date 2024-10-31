@@ -725,3 +725,6 @@ https://www.uptimia.com/learn/linux-cpu-utilization
 
 db2 query cpu load
 https://www.ibm.com/docs/en/db2/11.5?topic=views-env-sys-resources-return-system-information
+=========================
+compare two file in window
+https://stackoverflow.com/questions/6877238/what-is-the-windows-equivalent-of-the-diff-command
