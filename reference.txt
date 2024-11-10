@@ -728,3 +728,6 @@ https://www.ibm.com/docs/en/db2/11.5?topic=views-env-sys-resources-return-system
 =========================
 compare two file in window
 https://stackoverflow.com/questions/6877238/what-is-the-windows-equivalent-of-the-diff-command
+==========================
+python climb
+https://ithelp.ithome.com.tw/articles/10202121
