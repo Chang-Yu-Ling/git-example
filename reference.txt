@@ -731,3 +731,25 @@ https://stackoverflow.com/questions/6877238/what-is-the-windows-equivalent-of-th
 ==========================
 python climb
 https://ithelp.ithome.com.tw/articles/10202121
+
+=============================
+typescript jieba
+https://www.letswrite.tw/jeiba-keywords/
+import error:
+https://lemniscatex.github.io/how-to-install-nodejieba/
+https://github.com/MihaiValentin/lunr-languages/issues/91
+
+===============================
+cypress climb innerHTML
+https://stackoverflow.com/questions/62524625/how-to-save-the-entire-html-source-of-a-page-being-tested-with-cypress
+
+cypress get class
+https://stackoverflow.com/questions/58700051/select-element-with-class-name-that-starts-with-using-cypress
+================================
+python jieba
+https://ithelp.ithome.com.tw/articles/10258894
+
+python read txt
+https://shengyu7697.github.io/python-read-text-file/
+encode
+https://stackoverflow.com/questions/49021589/how-do-i-fix-this-cp950-illegal-multibyte-sequence-unicodedecodeerror-when-rea
