@@ -753,3 +753,8 @@ python read txt
 https://shengyu7697.github.io/python-read-text-file/
 encode
 https://stackoverflow.com/questions/49021589/how-do-i-fix-this-cp950-illegal-multibyte-sequence-unicodedecodeerror-when-rea
+================================
+Spring boot 2 to 3
+https://www.tpisoftware.com/tpu/articleDetails/2889
+Java to 17
+https://bell-sw.com/blog/migration-from-java-8-to-java-17/
