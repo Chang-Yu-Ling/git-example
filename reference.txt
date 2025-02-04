@@ -762,3 +762,7 @@ https://bell-sw.com/blog/migration-from-java-8-to-java-17/
 
 java version check
 https://stackoverflow.com/questions/54467287/how-to-specify-java-version-in-spring-spring-boot-pom-xml
+
+======================
+linux server log
+https://phoenixnap.com/kb/how-to-view-read-linux-log-files
