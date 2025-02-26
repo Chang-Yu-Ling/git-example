@@ -773,3 +773,9 @@ https://www.baeldung.com/spring-retry
 
 https://stackoverflow.com/questions/50553352/spring-retry-connection-until-datasource-is-available
 
+========================
+maven version in pom
+https://stackoverflow.com/questions/18811941/how-to-get-maven-version-number-inside-pom
+
+
+
