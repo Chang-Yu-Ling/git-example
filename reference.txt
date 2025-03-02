@@ -784,4 +784,10 @@ https://stackoverflow.com/questions/76153916/maven-doesnt-compile-and-package-wi
 vscode run ts
 https://code.visualstudio.com/docs/languages/typescript
 
+ts api(get) with header
+https://stackoverflow.com/questions/41519092/using-axios-get-with-authorization-header-in-react-native-app
+
+java api with header
+https://ithelp.ithome.com.tw/articles/10334455
+
 
