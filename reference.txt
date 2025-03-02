@@ -780,6 +780,8 @@ https://stackoverflow.com/questions/18811941/how-to-get-maven-version-number-ins
 define maven in docker
 https://stackoverflow.com/questions/76153916/maven-doesnt-compile-and-package-with-docker-image-on-spring-no-goals-specifie
 
-
+==========================
+vscode run ts
+https://code.visualstudio.com/docs/languages/typescript
 
 
