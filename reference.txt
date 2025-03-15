@@ -790,4 +790,7 @@ https://stackoverflow.com/questions/41519092/using-axios-get-with-authorization-
 java api with header
 https://ithelp.ithome.com.tw/articles/10334455
 
+=============================
+cypress chil d 》
+https://stackoverflow.com/questions/62175364/how-to-get-nested-multi-level-div-returned-in-cypress-material-ui-dialog
 
