@@ -793,4 +793,7 @@ https://ithelp.ithome.com.tw/articles/10334455
 =============================
 cypress chil d 》
 https://stackoverflow.com/questions/62175364/how-to-get-nested-multi-level-div-returned-in-cypress-material-ui-dialog
+==============================
+ubuntu 20.04 to 22.04
+https://www.kwchang0831.dev/dev-env/ubuntu/upgrade-from-20.04-to-22.04
 
