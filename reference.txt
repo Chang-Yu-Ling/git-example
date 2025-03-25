@@ -793,6 +793,11 @@ https://ithelp.ithome.com.tw/articles/10334455
 =============================
 cypress chil d 》
 https://stackoverflow.com/questions/62175364/how-to-get-nested-multi-level-div-returned-in-cypress-material-ui-dialog
+
+https://stackoverflow.com/questions/66661295/perform-click-on-each-children-of-ul-class-using-cypress
+
+https://stackoverflow.com/questions/67488307/clicking-list-of-elements-on-cypress-using-a-for-loop-without-using-each
+
 ==============================
 ubuntu 20.04 to 22.04
 https://www.kwchang0831.dev/dev-env/ubuntu/upgrade-from-20.04-to-22.04
