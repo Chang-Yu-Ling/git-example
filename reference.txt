@@ -797,6 +797,10 @@ https://stackoverflow.com/questions/62175364/how-to-get-nested-multi-level-div-r
 https://stackoverflow.com/questions/66661295/perform-click-on-each-children-of-ul-class-using-cypress
 
 https://stackoverflow.com/questions/67488307/clicking-list-of-elements-on-cypress-using-a-for-loop-without-using-each
+----------------
+file chooser dialog can only be shown with a user activation
+
+https://blog.csdn.net/youdu0213/article/details/122825179
 
 ==============================
 ubuntu 20.04 to 22.04
