@@ -806,3 +806,7 @@ https://blog.csdn.net/youdu0213/article/details/122825179
 ubuntu 20.04 to 22.04
 https://www.kwchang0831.dev/dev-env/ubuntu/upgrade-from-20.04-to-22.04
 
+==========================
+connect the result of two swl by one column
+
+https://stackoverflow.com/questions/26601266/how-to-make-the-two-resultwith-the-same-column-from-two-queries-display-in-a-s
