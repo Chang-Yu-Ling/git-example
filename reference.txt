@@ -810,3 +810,31 @@ https://www.kwchang0831.dev/dev-env/ubuntu/upgrade-from-20.04-to-22.04
 connect the result of two swl by one column
 
 https://stackoverflow.com/questions/26601266/how-to-make-the-two-resultwith-the-same-column-from-two-queries-display-in-a-s
+==========================
+tune sql:
+detial
+https://www.eversql.com/sql-query-optimizer/
+general
+https://www.explo.co/sql-tools/ai-sql-optimizer
+================================
+actuator(/httptrace)
+https://ithelp.ithome.com.tw/articles/10307445
+
+tomcat(maxWait)
+https://tomcat.apache.org/tomcat-10.1-doc/jdbc-pool.html
+
+1. 問
+2. tune LR relate SQL
+3. tread > pool is fine, because db process contain only 50%(query db, compare data, generate xlsx): 
+      tomcat maxWait-> wait in queue without fail directly
+   人為check: actuator(/httptrace)
+4. 壓測:
+      jmeter 打 request > db pool -> check wait in queue
+      jmeter 打 LR check db CPU -> to define max db pool size
+   test input single CN -> output cn.xlsx
+   test input single CNs -> output timestamp.xlsx
+
+   test input invalidated CN -> output error message
+   test no priviage -> output error message
+   test db 2 lock -> output error message
+   test db 1 lock -> auto failover
