@@ -838,3 +838,11 @@ https://tomcat.apache.org/tomcat-10.1-doc/jdbc-pool.html
    test no priviage -> output error message
    test db 2 lock -> output error message
    test db 1 lock -> auto failover
+
+====================
+ai prompt developed
+https://ithelp.ithome.com.tw/m/articles/10331475
+
+
+
+
