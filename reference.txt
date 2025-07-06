@@ -843,6 +843,8 @@ https://tomcat.apache.org/tomcat-10.1-doc/jdbc-pool.html
 ai prompt developed
 https://ithelp.ithome.com.tw/m/articles/10331475
 
+gui add ueseffect before/after
+https://github.com/Chang-Yu-Ling/springBoot/commit/54fc726de771e49b5261ccd31900f294cccff2f0?diff=split
 
 
 
