@@ -854,4 +854,11 @@ https://github.com/Chang-Yu-Ling/springBoot/commit/df90a393ba2ec4f3d05c5d2229a75
 
 react basic tutorial
 https://zh-hant.legacy.reactjs.org/docs/hello-world.html
+=======================
+VM. vs.  K8S
+https://vocus.cc/article/62ec7846fd8978000107c530
+
+k8s pod structure
+https://ikala.cloud/blog/application-modernization/kubernetes-gke-introduction
+
 
