@@ -869,6 +869,9 @@ https://stackoverflow.com/questions/9601725/creating-website-tour
 https://revaxarts-themes.com/tour/examples/example6.html?nocache=1752953910700#
 
 https://dev.to/rprabhu/guided-tours-solution-for-your-web-application-4cja
+
+keypoint:
+https://driverjs.com/docs/basic-usage
 =========================
 JavaScript get cookies
 https://www.w3schools.com/js/js_cookies.asp
