@@ -875,3 +875,64 @@ https://driverjs.com/docs/basic-usage
 =========================
 JavaScript get cookies
 https://www.w3schools.com/js/js_cookies.asp
+
+--------
+1. structure
+   - SMC
+   - web
+   * error handling
+2. api(tsso)
+   - get redirect
+   - get drop-down menu
+   - get privilege-map
+   * error handling（retry by spring boot framework enableRetry）
+3. log
+   - start
+   - userId, log results
+   - end 
+   * log errors only if retry failed
+4. config
+   - retry
+   - app map
+   * different scope with different privilege service url
+5. test
+   - no privileged : web message, SMC disable
+   - with privileged: web login, SMC enable
+   - switch fab: get different privilege map for icon, ckick and open in new page
+   - search: cn get cn...,. cnnn get no results
+   - retry: GUI show error message, log after 5 times retry(config set retry=5)
+   - switch: to dark mode
+   - web tour guide: first time yes, else no
+
+6. monitor
+   - errer
+   - CPU/ memory
+   - traffic: no-> no query DB
+   - duration: response time no -> no query DB
+
+-------------------------
+1. log 
+   - log system
+   - start
+   - log results
+   - end process time=
+2. performance
+   - sql plan by SQLdbx, by web tool
+   - time compare
+   - result same
+3. monitor
+   - error
+   - CPU/memory
+   - traffic:
+   - duration:
+------------------------
+error handling
+401,403
+user xxx don't have privileged...
+
+500
+actually error message
+
+200
+input validation
+
