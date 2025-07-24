@@ -943,3 +943,6 @@ https://cplusplus.com/forum/beginner/188249/
 ==================
 spring boot traffic monitor
 https://stackoverflow.com/questions/57003958/understanding-spring-boot-actuator-http-server-requests-metrics-max-attribute
+
+spring boot monitor
+https://medium.com/javarevisited/springboot-app-monitoring-with-grafana-prometheus-7c723f0dec15
