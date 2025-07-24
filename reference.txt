@@ -938,3 +938,5 @@ input validation
 ===========================
 C++ open url
 https://stackoverflow.com/questions/17347950/how-do-i-open-a-url-from-c
+
+https://cplusplus.com/forum/beginner/188249/
