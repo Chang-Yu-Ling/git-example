@@ -940,3 +940,6 @@ C++ open url
 https://stackoverflow.com/questions/17347950/how-do-i-open-a-url-from-c
 
 https://cplusplus.com/forum/beginner/188249/
+==================
+spring boot traffic monitor
+https://stackoverflow.com/questions/57003958/understanding-spring-boot-actuator-http-server-requests-metrics-max-attribute
