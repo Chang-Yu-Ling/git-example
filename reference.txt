@@ -954,6 +954,9 @@ https://stackoverflow.com/questions/38874940/wildfly-10-memory-leak-issue
 https://www.digitalsanctuary.com/java/jboss/session-memory-leak-wildfly-10.html
 
 https://developer.jboss.org/thread/251919
+===================
+K8S load balance
 
+https://stackoverflow.com/questions/55496934/is-there-a-way-to-do-a-load-balancing-between-pod-in-multiple-nodes
 
 
