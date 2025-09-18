@@ -946,3 +946,10 @@ https://stackoverflow.com/questions/57003958/understanding-spring-boot-actuator-
 
 spring boot monitor
 https://medium.com/javarevisited/springboot-app-monitoring-with-grafana-prometheus-7c723f0dec15
+======================
+wildfly memory leak
+
+https://stackoverflow.com/questions/38874940/wildfly-10-memory-leak-issue
+
+https://www.digitalsanctuary.com/java/jboss/session-memory-leak-wildfly-10.html
+
