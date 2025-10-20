@@ -963,4 +963,8 @@ java多型
 https://yubin551.gitbook.io/java-note/object_oriented_programming/polymorphism
 class &interface 躲型
 https://ithelp.ithome.com.tw/m/articles/10330819
+====================
+java泛型
+https://ithelp.ithome.com.tw/m/articles/10363489
+https://www.runoob.com/java/java-generics.html
 
