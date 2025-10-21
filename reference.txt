@@ -967,4 +967,8 @@ https://ithelp.ithome.com.tw/m/articles/10330819
 java泛型
 https://ithelp.ithome.com.tw/m/articles/10363489
 https://www.runoob.com/java/java-generics.html
+=====================
+java SQL query add value
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html
+
 
