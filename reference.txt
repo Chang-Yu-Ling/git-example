@@ -971,4 +971,7 @@ https://www.runoob.com/java/java-generics.html
 java SQL query add value
 https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/namedparam/MapSqlParameterSource.html
 
+====================
+java interface
+https://yubin551.gitbook.io/java-note/object_oriented_programming/interface
 
