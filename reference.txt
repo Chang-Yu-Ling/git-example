@@ -977,5 +977,7 @@ https://yubin551.gitbook.io/java-note/object_oriented_programming/interface
 ====================
 java switch case by type
 https://stackoverflow.com/questions/29570767/switch-over-type-in-java
-
+=====================
+spring boot timmer
+https://signoz.io/guides/codahale-metrics-using-timed-metrics-annotation-in-plain-java/
 
