@@ -981,3 +981,6 @@ https://stackoverflow.com/questions/29570767/switch-over-type-in-java
 spring boot timmer
 https://signoz.io/guides/codahale-metrics-using-timed-metrics-annotation-in-plain-java/
 
+=====================
+SQL optimization 
+https://stackoverflow.com/questions/24909106/sql-statement-takes-huge-amount-of-time-is-it-possible-optimize-it?rq=3
