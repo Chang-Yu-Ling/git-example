@@ -984,3 +984,6 @@ https://signoz.io/guides/codahale-metrics-using-timed-metrics-annotation-in-plai
 =====================
 SQL optimization 
 https://stackoverflow.com/questions/24909106/sql-statement-takes-huge-amount-of-time-is-it-possible-optimize-it?rq=3
+
+split sql query
+https://blog.51cto.com/u_16175471/11368285
