@@ -987,3 +987,9 @@ https://stackoverflow.com/questions/24909106/sql-statement-takes-huge-amount-of-
 
 split sql query
 https://blog.51cto.com/u_16175471/11368285
+======================
+k8s pod > container
+https://ithelp.ithome.com.tw/m/articles/10193232
+kubectl edit configmap
+https://stackoverflow.com/questions/49989943/kubectl-update-configmap
+
