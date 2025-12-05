@@ -992,4 +992,12 @@ k8s pod > container
 https://ithelp.ithome.com.tw/m/articles/10193232
 kubectl edit configmap
 https://stackoverflow.com/questions/49989943/kubectl-update-configmap
+======================
+jmx exporter
+https://grafana.com/grafana/dashboards/?search=jmx
 
+grafana for k8s
+https://grafana.com/grafana/dashboards/12387-prometheus-jmx-exporter-for-kubernetes/
+
+matrix
+https://grafana.com/grafana/dashboards/1471-kubernetes-apps/
