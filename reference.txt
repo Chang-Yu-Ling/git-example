@@ -1001,3 +1001,6 @@ https://grafana.com/grafana/dashboards/12387-prometheus-jmx-exporter-for-kuberne
 
 matrix
 https://grafana.com/grafana/dashboards/1471-kubernetes-apps/
+=================
+ignoreDifferences
+https://github.com/argoproj/argo-cd/issues/9678
