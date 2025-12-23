@@ -1036,3 +1036,11 @@ pass method(*all the same from call api*) > chech which can be auto
        - api key
        - tsso token
     - basic auth
+===================
+war decompile
+by comment 
+https://blog.csdn.net/qq_36744540/article/details/131437330
+by IDE
+https://blog.51cto.com/u_16213371/10834015
+step by step command 
+https://blog.51cto.com/u_16213431/11439970
