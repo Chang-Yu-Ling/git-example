@@ -1004,3 +1004,35 @@ https://grafana.com/grafana/dashboards/1471-kubernetes-apps/
 =================
 ignoreDifferences
 https://github.com/argoproj/argo-cd/issues/9678
+=================
+%  >  6,8~11(看wf prod) > wf step by step > 
+pass method(*all the same from call api*) > chech which can be auto
+
+1. compose host for all RU
+    container name + namespace-stage+ ...
+    ex: 
+2. get all end point
+   - get by actuator
+       spring boot example
+       缺點：
+       - different methods for spring boot/wildfly/quarkus(can't identify methods by deployment name only)
+       - can't get requests parameter 
+   - get by manual 
+       - link
+3. test by 3 modes
+  看code (gherkin function call), 分辨 3 mode
+4. api form
+    預期各fab test 可不同(if test the same 可額外抽出)
+    - container 
+       - env(fab)
+           - stage(dev/stg/prod)
+               - t1
+               - t2
+5. request format supported (是否有其他的)
+    - get/post
+    - body
+    - parameter 
+    - header
+       - api key
+       - tsso token
+    - basic auth
