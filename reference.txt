@@ -1044,3 +1044,53 @@ by IDE
 https://blog.51cto.com/u_16213371/10834015
 step by step command 
 https://blog.51cto.com/u_16213431/11439970
+=========================
+1.
+RP change 中有RU 有問題，後續的debug工作
+- vault 沒設
+- 新endpoint, routable 或 nr 沒通
+- image 沒上dev
+- 設計問題，config type 只接受 int(300)
+- 
+這些bug, 沒有在各change owner擋下，就會變成change當下，我來debug甚至 解決
+
+2.
+像之前AH 6月上f14,15 RP，也是在群組通知，當下3人進來sanity check，遇到
+- token設錯
+- config 沒吃到
+當下各自發現，直接debug
+
+所以 後續其他各廠 第一次上RP 時，原來預期change 相關 RU sponser能協助sanity check，
+- 其中竫泓 還是都有幫忙check query exporter+loader
+- 但其他就會變成我自己check
+    * 從PR角度來看
+       - RP 基本上我只包第一次，當次PR也都有開出來簽核 後 merge
+             - 後續就靠各change owner維護
+             - 因為RP 的PR早就merge，也沒有其他點，會在trigger我重新檢查已經整理過的RP config是否有變成 和 單獨上(非RP)的config又變成不同了
+  * 從sanity check 角度來看
+    - 因為 RP第一次上，argo沒有前一版，所以argo diff看不出config差異
+    - 所以sanity check 就看RU state正常，且api 打得通，log正常
+
+3.
+參與所有的bug 結果是
+- Change 的effort很難事先估計準確
+- 回顧8月到現在，1個月有4周，有至少2周在change(有.00 就2周，有.01變3周)，再加1周值班
+- 剩下的時間才是真正能解task的時間
+
+其實change花時間也不能想像，
+- 回到之前各自做change，偶爾就會有change遇到問題，甚至當天無法解決而reschedule 的
+- 當問題全部集中，就會耗掉同一個人白天的時間
+
+原來沒特別想提這些，因為預期RP包好後不會在發生，
+- 但上周1 flow query change 遇到問題
+- 發現後，因為怕3點前沒解決就要準備roll back
+- 所以根據error請change owner檢查 新 end point 在routable和 nr有沒有通
+    - 一檢查就發現nr 根本沒通
+    - 再請change owner檢查當下RU是r 還是nr，change owner 說r
+   - 但根本不合理，所以我自己去看，確認是nr後，在請change owner 看要申請proxy或改成r
+
+來來回回，花掉時間，
+所以想尋問如果RP Change 後遇到問題，debug是不是可以回到各 change owner，並且在3點前確認 能解決 或是 要roll back
+
+(  有問題一起討論，互相幫忙我完全接受，目前也都是這麼作)，差別在於他現在像是我一個人的責任，有alert都是我優先做debug
+
