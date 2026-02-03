@@ -1100,8 +1100,8 @@ RP change 中有RU 有問題，後續的debug工作
 prometheus check & healthy check
 1. namespace extend
    - 各 fab 含不同 namespace, 需因應不同 fab 檢查不同 namespace
-2. check fz2 or fz2 decided by fab
-   - 海外廠 active 在 fz2 => check log from fz2
+2. check fz1 or fz2 decided by fab
+   - 海外廠 active 在 fz2 => check log from fz2 (現況 default check fz1)
 3. ap like job or GUI may no current log
    - 拉長 check log 時間範圍
    - for job or GUI check no error log only (without checking current log existing) 
@@ -1121,6 +1121,7 @@ api check
    - list most important api for each service
        - get request frequency for all api (ex: find top 3)
           link: url
+       - add other by manually define
 
 precheck
 1. resource check
