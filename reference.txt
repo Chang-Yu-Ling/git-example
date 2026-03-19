@@ -1131,3 +1131,10 @@ precheck
 
 notice user
    wait for try run
+
+=======================
+Persistence.createEntityManager() painfully slow with Hibernate
+https://stackoverflow.com/questions/5032890/persistence-createentitymanager-painfully-slow-with-hibernate
+
+
+
