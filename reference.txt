@@ -1149,8 +1149,9 @@ https://stackoverflow.com/questions/5032890/persistence-createentitymanager-pain
     - 第一筆單獨執行 -> 後面開 by in query(in count 設為config，根據需求開)
 
 3. split sql 
-因為後面query用的的都只是main
-by main 分組 query(sequense query 或搭配method 1 or 2)
+因為後面query用的的都只是main[prod實際上用不到]
+==> by "main" 分組 query(減少request 次數)
+(sequense query 或 "搭配method 1 or 2")
 
 ======================
 開backlog effort 2 (W61X-[case follow-up] flowcompare tsso version upgrade) 
@@ -1178,6 +1179,8 @@ change
                                                                           -> create sabity check only work flow
 =======================
 通知flowcompare dev測試
+========================
+semi-auto reference to wrong main issue
 
 ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
 ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
