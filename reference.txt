@@ -1136,5 +1136,48 @@ notice user
 Persistence.createEntityManager() painfully slow with Hibernate
 https://stackoverflow.com/questions/5032890/persistence-createentitymanager-painfully-slow-with-hibernate
 
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+1.multi thread
+- 第一筆單獨執行 -> 後面開 multi thread(thread count 設為config，根據需求開)
 
+2.query by in
+- by part in (query timeout)
+- by oper_no in
+    紀錄 in 10 oper_no
+    test in 1 oper_no
+    - 第一筆單獨執行 -> 後面開 by in query(in count 設為config，根據需求開)
 
+3. split sql 
+因為後面query用的的都只是main
+by main 分組 query(sequense query 或搭配method 1 or 2)
+
+======================
+開backlog effort 2 (W61X-[case follow-up] flowcompare tsso version upgrade) 
+開其他backlog  (TBD-[case follow-up] other AP tsso version upgrade) (之前盤點 tsso related AP)
+
+[群組說現況時程:]
+討論後確認之後tsso進版都會“寄信”通知
+這次應完成進版的時程預計是“ W61X"
+我先開backlog 分成2張(ECP 上的flow compare 屬於有受影響[有時程])
+flow compare tsso upgrade("W6X"):
+"url"
+other tsso related AP tsso upgrade(TBD):
+"url"
+
+======================
+Cline
+write DB crud api design document
+
+MPCS
+ask db2 or orcle
+ask (delete all/insert all) or (update/insert single)
+======================
+change
+([if PR slow] change by CD or original workflow first -> )sre pr -> merge -> create F15, EBO work flow -> change
+                                                                          -> create sabity check only work flow
+=======================
+通知flowcompare dev測試
+
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
