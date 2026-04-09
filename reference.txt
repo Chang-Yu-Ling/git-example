@@ -1184,3 +1184,18 @@ semi-auto reference to wrong main issue
 
 ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
 ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+wildfly 8 session cookie samesite xml
+https://cloud.tencent.com/developer/ask/sof/147830
+
+web.xml
+<session-config>
+    <cookie-config>
+        <comment>; SameSite=Lax</comment>
+    </cookie-config>
+</session-config>
+
+standalone.xml
+<servlet-container name="default">
+    <session-cookie comment="; SameSite=Lax" />
+</servlet-container>
+====================================
