@@ -1201,3 +1201,7 @@ standalone.xml
 ====================================
 mtail
 https://wsgzao.github.io/post/mtail/
+
+wildfly to spring boot
+https://www.baeldung.com/spring-boot-migration
+=====================================
