@@ -1205,3 +1205,11 @@ https://wsgzao.github.io/post/mtail/
 wildfly to spring boot
 https://www.baeldung.com/spring-boot-migration
 =====================================
+mongodb pvc expand 介紹
+https://www.mongodb.com/zh-cn/docs/kubernetes/v1.5/tutorial/resize-pv-storage/
+
+2. 手動擴展（適用於傳統 YAML 部署）對於自行維護 StatefulSet 的使用者，可透過修改 PVC 物件來完成擴展：
+
+編輯 PVC 資源宣告：使用 kubectl edit pvc <pvc-name>，將 spec.resources.requests.storage 的數值（例如從 50Gi 改為 100Gi）調高。
+
+檢查擴展狀態：若雲端供應商或儲存外掛支援即時擴展 (Online Volume Expansion)，儲存空間會動態放大；若不支援，可能需要重啟掛載該 PVC 的 MongoDB Pod 來完成綁定。
