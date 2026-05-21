@@ -1213,3 +1213,164 @@ https://www.mongodb.com/zh-cn/docs/kubernetes/v1.5/tutorial/resize-pv-storage/
 編輯 PVC 資源宣告：使用 kubectl edit pvc <pvc-name>，將 spec.resources.requests.storage 的數值（例如從 50Gi 改為 100Gi）調高。
 
 檢查擴展狀態：若雲端供應商或儲存外掛支援即時擴展 (Online Volume Expansion)，儲存空間會動態放大；若不支援，可能需要重啟掛載該 PVC 的 MongoDB Pod 來完成綁定。
+=================================
+java executebatch with return error message for each execution and roll back when any sql with error
+
+try {
+    connection.setAutoCommit(false); // Step 1: Start manual transaction
+    
+    // Step 2: Add statements to batch
+    for (String sql : sqlList) {
+        statement.addBatch(sql);
+    }
+    
+    // Step 3: Execute
+    statement.executeBatch();
+    connection.commit(); // Commit only if ALL statements succeed
+    
+} catch (BatchUpdateException e) {
+    // Step 5: Roll back the whole batch on ANY error
+    if (connection != null) connection.rollback(); 
+
+    // Step 4: Retrieve individual error messages
+    System.err.println("Batch failed! Error message: " + e.getMessage());
+    
+    // Get chained exceptions for more details if the driver supports it
+    SQLException nextE = e.getNextException();
+    while (nextE != null) {
+        System.err.println("Chained Error: " + nextE.getMessage());
+        nextE = nextE.getNextException();
+    }
+} catch (SQLException e) {
+    if (connection != null) connection.rollback();
+    e.printStackTrace();
+}
+
+java executebatch with return error message for each execution as a list and roll back when any sql with error
+
+List<String> errorMessages = new ArrayList<>();
+try (Connection conn = dataSource.getConnection();
+     PreparedStatement pstmt = conn.prepareStatement(sql)) {
+    
+    // 1. Start Transaction
+    conn.setAutoCommit(false); 
+    
+    for (Data data : dataList) {
+        pstmt.setString(1, data.getValue());
+        pstmt.addBatch();
+    }
+    
+    // 2. Execute Batch
+    pstmt.executeBatch();
+    conn.commit(); 
+    
+} catch (BatchUpdateException e) {
+    // 3. Rollback on any failure
+    try {
+        if (conn != null) conn.rollback();
+    } catch (SQLException ex) {
+        ex.printStackTrace();
+    }
+    
+    // 4. Collect individual error messages
+    SQLException current = e;
+    while (current != null) {
+        errorMessages.add(current.getMessage());
+        current = current.getNextException(); // Move to the next chained error
+    }
+} catch (SQLException e) {
+    // Handle general connection/SQL errors
+    errorMessages.add(e.getMessage());
+}
+
+java executebatch with return error message or success for each execution as a list ,and roll back when any sql with error
+
+import java.sql.BatchUpdateException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BatchProcessor {
+
+    public List<String> executeBatchWithRollback(Connection conn, String sql, List<List<Object>> paramsList) {
+        List<String> results = new ArrayList<>();
+        PreparedStatement pstmt = null;
+
+        try {
+            // 1. 關閉自動提交，開啟交易 (Transaction)
+            conn.setAutoCommit(false);
+            pstmt = conn.prepareStatement(sql);
+
+            // 2. 將所有參數加入 Batch
+            for (List<Object> params : paramsList) {
+                for (int i = 0; i < params.size(); i++) {
+                    pstmt.setObject(i + 1, params.get(i));
+                }
+                pstmt.addBatch();
+            }
+
+            // 3. 執行批次
+            int[] updateCounts = pstmt.executeBatch();
+            
+            // 若完全成功，手動 Commit
+            conn.commit();
+            for (int i = 0; i < updateCounts.length; i++) {
+                results.add("Row " + (i + 1) + ": Success (Affected rows: " + updateCounts[i] + ")");
+            }
+
+        } catch (BatchUpdateException e) {
+            // 4. 發生錯誤時 Rollback
+            try {
+                conn.rollback();
+            } catch (SQLException rollbackEx) {
+                rollbackEx.printStackTrace();
+            }
+
+            // 從 Exception 中取得發生錯誤前的執行結果狀態
+            int[] updateCounts = e.getUpdateCounts();
+            for (int i = 0; i < updateCounts.length; i++) {
+                if (updateCounts[i] == -2 /* Statement.SUCCESS_NO_INFO */) {
+                    results.add("Row " + (i + 1) + ": Success (Row count unknown)");
+                } else if (updateCounts[i] == -3 /* Statement.EXECUTE_FAILED */) {
+                    results.add("Row " + (i + 1) + ": Failed (Execution failed)");
+                } else {
+                    results.add("Row " + (i + 1) + ": Success (Affected rows: " + updateCounts[i] + ")");
+                }
+            }
+            // 記錄導致批次中斷的實際錯誤訊息
+            results.add("Error at Row " + (paramsList.size() > updateCounts.length ? updateCounts.length + 1 : updateCounts.length) + ": " + e.getMessage());
+
+        } catch (SQLException e) {
+            try {
+                conn.rollback();
+            } catch (SQLException rollbackEx) {
+                rollbackEx.printStackTrace();
+            }
+            results.add("Batch execution failed globally: " + e.getMessage());
+        } finally {
+            closeResources(pstmt);
+        }
+
+        return results;
+    }
+
+    private void closeResources(AutoCloseable... resources) {
+        for (AutoCloseable res : resources) {
+            if (res != null) {
+                try {
+                    res.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
