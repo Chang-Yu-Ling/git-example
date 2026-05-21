@@ -1370,6 +1370,7 @@ public class BatchProcessor {
     }
 }
 
+java executebatch with return error message or success for each execution as a list of map with key(state[success/fail],message["" when success]),and roll back when any sql with error, run all sql statement without break for error occured
 
 
 
