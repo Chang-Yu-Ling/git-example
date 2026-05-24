@@ -1372,6 +1372,15 @@ public class BatchProcessor {
 
 java executebatch with return error message or success for each execution as a list of map with key(state[success/fail],message["" when success]),and roll back when any sql with error, run all sql statement without break for error occured
 
+================================================
+windows explorer high cpu usage
+1. Restart Windows Explorer
+https://vietbay.com.vn/en/4-ways-to-restart-file-explorer-in-windows-10-and-11.htm
+taskkill /f /im explorer.exe
+start explorer.exe
 
+2. Disable Problematic Shell Extensions
+3. Rebuild the Search Index
+4. Check for Corrupted System Files
 
 
