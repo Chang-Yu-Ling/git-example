@@ -1433,5 +1433,24 @@ spring.jpa.open-in-view=true
 Alternatively, inject the DataSource into a simple @Component startup runner:
 Create a bean that implements CommandLineRunner.
 Call dataSource.getConnection().close() inside the run method.
+======================
+actuator tomcat metrics
 
+Thread Metrics
+tomcat.threads.busy: Active threads processing requests.
+tomcat.threads.current: Total threads currently allocated.
+tomcat.threads.config.max: Maximum allowed threads configured.
 
+Session Metrics
+tomcat.sessions.active.current: Current live user sessions.
+tomcat.sessions.active.max: Peak active session count.
+tomcat.sessions.created: Cumulative sessions created.
+tomcat.sessions.expired: Cumulative sessions timed out.
+tomcat.sessions.rejected: Sessions denied due to limit.
+
+Request & Cache Metrics
+tomcat.global.request: Total requests handled.
+tomcat.global.request.max: Longest request execution time.
+tomcat.global.error: Number of failed requests.
+tomcat.cache.hit: Successful static cache lookups.
+tomcat.cache.access: Total static cache attempts.
