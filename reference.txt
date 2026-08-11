@@ -1408,6 +1408,30 @@ edit yaml to mount istio log to file
 ======================
 kibina alert
 https://ithelp.ithome.com.tw/articles/10281084
+=======================
 
+actuator spring boot db max size can not get value before no request
+
+Spring Boot Actuator cannot show database pool max size (hikaricp.connections.max) before a request because HikariCP uses lazy initialization. The data source and its underlying connection pool are not fully created or bound to Micrometer metrics until the first database operation initializes the pool.
+
+Why It HappensLazy 
+Initialization: Spring Boot does not open or fully instantiate the connection pool at startup to save resources.
+Metric Binding: Micrometer registers pool bean stats only after the DataSource is touched and the pool object exists in the application context.
+
+How to Fix It
+Disable Lazy Data Source: Force the database connection pool to initialize at startup.
+Add a Startup Health/Init Check: Run a tiny query or touch the data source when the app boots up.
+
+Configuration Fix
+Add this property to your configuration file to force early initialization:
+properties:
+spring.datasource.initialization-mode=always
+# Or for JPA/Hibernate setups forcing non-lazy connection handling:
+spring.jpa.open-in-view=true
+
+請謹慎使用程式碼。
+Alternatively, inject the DataSource into a simple @Component startup runner:
+Create a bean that implements CommandLineRunner.
+Call dataSource.getConnection().close() inside the run method.
 
 
