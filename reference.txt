@@ -1454,3 +1454,6 @@ tomcat.global.request.max: Longest request execution time.
 tomcat.global.error: Number of failed requests.
 tomcat.cache.hit: Successful static cache lookups.
 tomcat.cache.access: Total static cache attempts.
+========================
+wildfly 8 to spring boot 3
+https://bell-sw.com/blog/migration-to-spring-boot-3/
