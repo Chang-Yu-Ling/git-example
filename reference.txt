@@ -1469,6 +1469,13 @@ https://share.google/aimode/snlhdejDIYfgXBW78
 caching TTL
 https://share.google/aimode/XcXQ3beeNcjBGgI4O
 
+============================
+promise
+https://www.casper.tw/development/2020/02/16/all-new-promise/
+
+frontend CPU/MEM loading
+https://share.google/aimode/W27rmQ2TpRecQW3o3
+
 
 
 
