@@ -1462,5 +1462,13 @@ https://bell-sw.com/blog/migration-to-spring-boot-3/
 Check if there is anything else that needs to be added.
 
 Since I’m on duty this week and need to host the morning meeting on my team, so I might occasionally miss the daily scrum if the morning meeting on my team hasn't finished yet.
+==============================
+spring boot caching
+https://share.google/aimode/snlhdejDIYfgXBW78
+
+caching TTL
+https://share.google/aimode/XcXQ3beeNcjBGgI4O
+
+
 
 
