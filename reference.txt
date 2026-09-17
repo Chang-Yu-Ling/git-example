@@ -1475,7 +1475,11 @@ https://www.casper.tw/development/2020/02/16/all-new-promise/
 
 frontend CPU/MEM loading
 https://share.google/aimode/W27rmQ2TpRecQW3o3
+============================
+spring boot get xml as config map
+https://share.google/aimode/sDSYxuF2jk1IT1thP
 
-
+spring boot on k8s read xml config from non-default path
+https://share.google/aimode/S0eyBwKcMpaHwqRMM
 
 
