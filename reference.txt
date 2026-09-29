@@ -1482,4 +1482,10 @@ https://share.google/aimode/sDSYxuF2jk1IT1thP
 spring boot on k8s read xml config from non-default path
 https://share.google/aimode/S0eyBwKcMpaHwqRMM
 
+=======================
+step by step show move config of persistence get from xml to properties
+https://developer.cloud.tencent.com/ask/sof/112980668
+
+persistence xml
+https://thorben-janssen.com/jpa-persistence-xml/
 
