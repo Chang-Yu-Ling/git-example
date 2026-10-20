@@ -1,4 +1,4 @@
-
+I'm
 stackOverFlow:
 https://stackoverflow.com/questions/8847766/how-to-convert-json-to-csv-format-and-store-in-a-variable
 
@@ -1492,3 +1492,12 @@ https://thorben-janssen.com/jpa-persistence-xml/
 axis 1.4 jar vulnerabilities fix
 https://github.com/eclipse-birt/birt/issues/1424
 
+=======================
+- Alarm 紀錄 / 此job grade 要推廣 分享 
+- Mongo db migration 問 WT 其他系統串接 ->先migration 在加index ->效能較佳
+- SA 屬於 cooperation ->量化，別分散點放寫
+- 合作 
+      - RSS lackhouse
+      - tVM 一團亂： 各owner需handle
+- domain 增進：RSS(one route)+revamp(寫Sql)
+- key point(let manager know-> 私下說/ 會議說請manager定奪)
