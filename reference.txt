@@ -1501,3 +1501,8 @@ https://github.com/eclipse-birt/birt/issues/1424
       - tVM 一團亂： 各owner需handle
 - domain 增進：RSS(one route)+revamp(寫Sql)
 - key point(let manager know-> 私下說/ 會議說請manager定奪)
+=============================
+power bi desktop
+https://learn.microsoft.com/zh-tw/power-bi/connect-data/desktop-error-launching-desktop
+
+
